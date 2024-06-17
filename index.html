@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .flower {
+        height: 200px;
+        width: 200px;
+        margin: 20px auto;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: relative;
+        animation: flower 10s linear infinite;
+      }
+
+      @keyframes flower {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      .mid {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+
+        background: radial-gradient(circle, #000, #ff5e00, #000);
+
+        z-index: 4;
+
+        background-size: 5px 5px;
+
+        filter: drop-shadow(0 0 8px #c7652c);
+      }
+
+      .Petal1 {
+        position: absolute;
+        left: 40px;
+        z-index: 3;
+
+        width: 120px;
+        height: 30px;
+        border-radius: 50%;
+
+        background: radial-gradient(circle, #ff5e00, #ffbb00);
+
+        filter: drop-shadow(0 0 5px #e05200);
+      }
+
+      .Petal1.p1 {
+        transform: rotate(22.5deg);
+      }
+      .Petal1.p2 {
+        transform: rotate(67.5deg);
+      }
+      .Petal1.p3 {
+        transform: rotate(110.5deg);
+      }
+      .Petal1.p4 {
+        transform: rotate(157.5deg);
+      }
+
+      .Petal2 {
+        position: absolute;
+        left: 0;
+        z-index: 2;
+
+        width: 200px;
+        height: 40px;
+        border-radius: 50%;
+
+        background: radial-gradient(circle, #ff5e00, #fbd702);
+
+        filter: drop-shadow(0 0 5px #e05200);
+      }
+
+      .Petal2.p1 {
+      }
+
+      .Petal2.p2 {
+        transform: rotate(90deg);
+      }
+      .Petal2.p3 {
+        transform: rotate(45deg);
+      }
+
+      .Petal2.p4 {
+        transform: rotate(135deg);
+      }
+
+      .Petal3 {
+        position: absolute;
+        left: 0px;
+        z-index: 1;
+
+        width: 200px;
+        height: 40px;
+        border-radius: 50%;
+
+        background: radial-gradient(circle, #ff5e00, #fbd702);
+
+        filter: drop-shadow(0 0 2px #fbd702);
+      }
+
+      .Petal3.p1 {
+        transform: rotate(22.5deg);
+      }
+      .Petal3.p2 {
+        transform: rotate(67.5deg);
+      }
+      .Petal3.p3 {
+        transform: rotate(110.5deg);
+      }
+      .Petal3.p4 {
+        transform: rotate(157.5deg);
+      }
+    </style>
+  </head>
+  <body style="background-color: cyan">
+    <p
+      style="
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+          sans-serif;
+        text-align: center;
+        justify-content: center;
+      "
+    >
+      Hey Ramya, Hbd I have been wanting to tell you from so many days, I guess
+      I have to say this anonymously. Ninu first time nenu mana 1st-year class
+      lo chusa blue dress. Evar abba ee ammai, mana class lo epudu chudaledu
+      kada anukuna, next 2-3 days varaku nuvu kanipiyaledu. I thought maybe mana
+      class kadu emo, mana dept/ mana class ayitey bavundu anukuna. Ig what I
+      wished was heard by gods, you came to our class. I liked you then I
+      thought it was just infatuation so I brushed it off. Next day sarle neetho
+      frnd avudam anukuna, kani you were busy with you friends. So I had to
+      retreat. Luckily I met you in canteen that day but you didn't see me
+      properly. Moving to second year I got somewhat comfortable speaking with
+      everyone you, your friends. I enjoyed your friendship. I didn't want to
+      ruin it. So...... I guess I have to tell you, you are one of the beautiful
+      person I've met and I am glad we are frnds 😇.
+    </p>
+    <div class="flower">
+      <div class="mid"></div>
+      <div class="Petal1 p1"></div>
+      <div class="Petal1 p2"></div>
+      <div class="Petal1 p3"></div>
+      <div class="Petal1 p4"></div>
+      <div class="Petal2 p1"></div>
+      <div class="Petal2 p2"></div>
+      <div class="Petal2 p3"></div>
+      <div class="Petal2 p4"></div>
+      <div class="Petal3 p1"></div>
+      <div class="Petal3 p2"></div>
+      <div class="Petal3 p3"></div>
+      <div class="Petal3 p4"></div>
+    </div>
+    <div class="anony" style="text-align: center; justify-content: center">
+      <h1>There is so much to say, but I can't. THANK YOU.</h1>
+    </div>
+  </body>
+</html>
